@@ -1,0 +1,354 @@
+#######################################
+###########Basis information###########
+#######################################
+mmax= 15
+Number of sites: 100
+Dimension of local Hilbert space: 31
+V6 Strength -20.0
+all m-states are considered
+only nearest-neighbour interactions
+
+#################################################################################
+##################################
+####Calculate free rotor chain####
+##################################
+
+Sweep 1 E= -3.7385669479e+02 error= 3.6748217002e+00 MaxBondDim= 10 
+Sweep 2 E= -4.2962777930e+02 error= 1.2981256611e-01 MaxBondDim= 10 
+Sweep 3 E= -4.5680432531e+02 error= 5.9492751066e-02 MaxBondDim= 10 
+Sweep 4 E= -4.6993878310e+02 error= 2.7949295232e-02 MaxBondDim= 10 
+Sweep 5 E= -4.7847057078e+02 error= 1.7831373974e-02 MaxBondDim= 10 
+Sweep 6 E= -4.8473639463e+02 error= 1.2926250066e-02 MaxBondDim= 10 
+Sweep 7 E= -4.8845866329e+02 error= 7.6204373707e-03 MaxBondDim= 10 
+Sweep 8 E= -4.9126181298e+02 error= 5.7060199168e-03 MaxBondDim= 10 
+Sweep 9 E= -4.9327493677e+02 error= 4.0811394309e-03 MaxBondDim= 8 
+Sweep 10 E= -4.9451780263e+02 error= 2.5132884095e-03 MaxBondDim= 6 
+Sweep 11 E= -4.9523046675e+02 error= 1.4390554807e-03 MaxBondDim= 5 
+Sweep 12 E= -4.9564769222e+02 error= 8.4177830678e-04 MaxBondDim= 5 
+Sweep 13 E= -4.9590127697e+02 error= 5.1136134970e-04 MaxBondDim= 4 
+Sweep 14 E= -4.9606143725e+02 error= 3.2286379513e-04 MaxBondDim= 4 
+Sweep 15 E= -4.9617794452e+02 error= 2.3480944552e-04 MaxBondDim= 4 
+Sweep 16 E= -4.9624706366e+02 error= 1.3928373123e-04 MaxBondDim= 3 
+Sweep 17 E= -4.9628865236e+02 error= 8.3799414790e-05 MaxBondDim= 3 
+Sweep 18 E= -4.9631576918e+02 error= 5.4636234639e-05 MaxBondDim= 3 
+Sweep 19 E= -4.9633198748e+02 error= 3.2676304988e-05 MaxBondDim= 3 
+Sweep 20 E= -4.9634250693e+02 error= 2.1193928558e-05 MaxBondDim= 3 
+Sweep 21 E= -4.9634797970e+02 error= 1.1026086640e-05 MaxBondDim= 2 
+Sweep 22 E= -4.9635185907e+02 error= 7.8157635721e-06 MaxBondDim= 2 
+Sweep 23 E= -4.9635499658e+02 error= 6.3211002561e-06 MaxBondDim= 2 
+Sweep 24 E= -4.9635757343e+02 error= 5.1915155024e-06 MaxBondDim= 1 
+Sweep 25 E= -4.9635969339e+02 error= 4.2710285229e-06 MaxBondDim= 1 
+Sweep 26 E= -4.9636143070e+02 error= 3.5000851652e-06 MaxBondDim= 1 
+Sweep 27 E= -4.9636288998e+02 error= 2.9399455529e-06 MaxBondDim= 1 
+Sweep 28 E= -4.9636412990e+02 error= 2.4979969378e-06 MaxBondDim= 1 
+Sweep 29 E= -4.9636517800e+02 error= 2.1115507306e-06 MaxBondDim= 1 
+Sweep 30 E= -4.9636605829e+02 error= 1.7734715380e-06 MaxBondDim= 1 
+Sweep 31 E= -4.9636677653e+02 error= 1.4470005000e-06 MaxBondDim= 1 
+Sweep 32 E= -4.9636739439e+02 error= 1.2447580634e-06 MaxBondDim= 1 
+Sweep 33 E= -4.9636792225e+02 error= 1.0634453854e-06 MaxBondDim= 1 
+Sweep 34 E= -4.9636836550e+02 error= 8.9298729625e-07 MaxBondDim= 1 
+Convergence reached after sweep 34
+Max. bond dimension: 1
+
+Final energy = -496.36836550 
+
+Initial state calculated
+###############################################################################
+
+##################################
+########g= 0.0 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -4.9636874870e+02 error= 3.0146312648e+00 MaxBondDim= 1 
+Sweep 2 E= -4.9636907049e+02 error= 6.4830315685e-07 MaxBondDim= 1 
+Convergence reached after sweep 2
+
+Max. bond dimension: 1
+
+Final energy = -496.36907049 
+
+##################################
+########g= 0.1 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -4.9633328198e+02 error= 3.0147752252e+00 MaxBondDim= 1 
+Sweep 2 E= -4.9679761712e+02 error= 9.3465653282e-04 MaxBondDim= 3 
+Sweep 3 E= -4.9705966345e+02 error= 5.2719290692e-04 MaxBondDim= 3 
+Sweep 4 E= -4.9720330438e+02 error= 2.8889778337e-04 MaxBondDim= 3 
+Sweep 5 E= -4.9728830127e+02 error= 1.7092074718e-04 MaxBondDim= 3 
+Sweep 6 E= -4.9734504819e+02 error= 1.1409969387e-04 MaxBondDim= 3 
+Sweep 7 E= -4.9737688972e+02 error= 6.4018927236e-05 MaxBondDim= 3 
+Sweep 8 E= -4.9739512222e+02 error= 3.6655966002e-05 MaxBondDim= 3 
+Sweep 9 E= -4.9740581912e+02 error= 2.1505379882e-05 MaxBondDim= 3 
+Sweep 10 E= -4.9741192931e+02 error= 1.2283960707e-05 MaxBondDim= 3 
+Sweep 11 E= -4.9741617357e+02 error= 8.5326082211e-06 MaxBondDim= 3 
+Sweep 12 E= -4.9741812520e+02 error= 3.9235340948e-06 MaxBondDim= 3 
+Sweep 13 E= -4.9741916657e+02 error= 2.0935440074e-06 MaxBondDim= 3 
+Sweep 14 E= -4.9741973802e+02 error= 1.1488229436e-06 MaxBondDim= 3 
+Sweep 15 E= -4.9742006897e+02 error= 6.6534260959e-07 MaxBondDim= 3 
+Convergence reached after sweep 15
+
+Max. bond dimension: 3
+
+Final energy = -497.42006897 
+
+##################################
+########g= 0.2 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.0061276161e+02 error= 2.9975519537e+00 MaxBondDim= 3 
+Sweep 2 E= -5.0068469670e+02 error= 1.4367343272e-04 MaxBondDim= 5 
+Sweep 3 E= -5.0071059875e+02 error= 5.1730580970e-05 MaxBondDim= 5 
+Sweep 4 E= -5.0072581334e+02 error= 3.0385058405e-05 MaxBondDim= 5 
+Sweep 5 E= -5.0073535129e+02 error= 1.9047901406e-05 MaxBondDim= 5 
+Sweep 6 E= -5.0074201950e+02 error= 1.3316645148e-05 MaxBondDim= 5 
+Sweep 7 E= -5.0074690820e+02 error= 9.7628162053e-06 MaxBondDim= 5 
+Sweep 8 E= -5.0075047452e+02 error= 7.1219620701e-06 MaxBondDim= 5 
+Sweep 9 E= -5.0075305542e+02 error= 5.1540347243e-06 MaxBondDim= 5 
+Sweep 10 E= -5.0075507554e+02 error= 4.0341520717e-06 MaxBondDim= 5 
+Sweep 11 E= -5.0075659323e+02 error= 3.0307868217e-06 MaxBondDim= 5 
+Sweep 12 E= -5.0075802898e+02 error= 2.8671505365e-06 MaxBondDim= 5 
+Sweep 13 E= -5.0075903642e+02 error= 2.0118210274e-06 MaxBondDim= 5 
+Sweep 14 E= -5.0075976840e+02 error= 1.4617402918e-06 MaxBondDim= 5 
+Sweep 15 E= -5.0076037038e+02 error= 1.2021460300e-06 MaxBondDim= 5 
+Sweep 16 E= -5.0076104863e+02 error= 1.3544283943e-06 MaxBondDim= 5 
+Sweep 17 E= -5.0076138212e+02 error= 6.6596180128e-07 MaxBondDim= 5 
+Convergence reached after sweep 17
+
+Max. bond dimension: 5
+
+Final energy = -500.76138212 
+
+##################################
+########g= 0.30000000000000004 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.0655057431e+02 error= 2.9741365437e+00 MaxBondDim= 5 
+Sweep 2 E= -5.0672898869e+02 error= 3.5209033263e-04 MaxBondDim= 6 
+Sweep 3 E= -5.0680099688e+02 error= 1.4208374722e-04 MaxBondDim= 6 
+Sweep 4 E= -5.0685325980e+02 error= 1.0311253795e-04 MaxBondDim= 6 
+Sweep 5 E= -5.0689351100e+02 error= 7.9407601427e-05 MaxBondDim= 6 
+Sweep 6 E= -5.0692654955e+02 error= 6.5174240389e-05 MaxBondDim= 6 
+Sweep 7 E= -5.0695376432e+02 error= 5.3682936538e-05 MaxBondDim= 6 
+Sweep 8 E= -5.0697664431e+02 error= 4.5130270229e-05 MaxBondDim= 6 
+Sweep 9 E= -5.0699679811e+02 error= 3.9751332744e-05 MaxBondDim= 6 
+Sweep 10 E= -5.0701373336e+02 error= 3.3401950154e-05 MaxBondDim= 6 
+Sweep 11 E= -5.0702769668e+02 error= 2.7539554897e-05 MaxBondDim= 6 
+Sweep 12 E= -5.0704001314e+02 error= 2.4290916065e-05 MaxBondDim= 6 
+Sweep 13 E= -5.0705054097e+02 error= 2.0762869687e-05 MaxBondDim= 6 
+Sweep 14 E= -5.0705952387e+02 error= 1.7715687980e-05 MaxBondDim= 6 
+Sweep 15 E= -5.0706736389e+02 error= 1.5461493230e-05 MaxBondDim= 6 
+Sweep 16 E= -5.0707422103e+02 error= 1.3522942067e-05 MaxBondDim= 6 
+Sweep 17 E= -5.0708025615e+02 error= 1.1901714840e-05 MaxBondDim= 6 
+Sweep 18 E= -5.0708557552e+02 error= 1.0490073271e-05 MaxBondDim= 6 
+Sweep 19 E= -5.0709027352e+02 error= 9.2646170694e-06 MaxBondDim= 6 
+Sweep 20 E= -5.0709445929e+02 error= 8.2544276239e-06 MaxBondDim= 6 
+Sweep 21 E= -5.0709820270e+02 error= 7.3820154960e-06 MaxBondDim= 6 
+Sweep 22 E= -5.0710181849e+02 error= 7.1303166588e-06 MaxBondDim= 6 
+Sweep 23 E= -5.0710514770e+02 error= 6.5651156772e-06 MaxBondDim= 6 
+Sweep 24 E= -5.0710797943e+02 error= 5.5840914658e-06 MaxBondDim= 6 
+Sweep 25 E= -5.0711124277e+02 error= 6.4351476772e-06 MaxBondDim= 6 
+Sweep 26 E= -5.0711409728e+02 error= 5.6289225779e-06 MaxBondDim= 6 
+Sweep 27 E= -5.0711628035e+02 error= 4.3048693956e-06 MaxBondDim= 6 
+Sweep 28 E= -5.0711842502e+02 error= 4.2291326815e-06 MaxBondDim= 6 
+Sweep 29 E= -5.0712043750e+02 error= 3.9684488946e-06 MaxBondDim= 6 
+Sweep 30 E= -5.0712204766e+02 error= 3.1750972402e-06 MaxBondDim= 6 
+Sweep 31 E= -5.0712346662e+02 error= 2.7980642682e-06 MaxBondDim= 6 
+Sweep 32 E= -5.0712477748e+02 error= 2.5848879297e-06 MaxBondDim= 6 
+Sweep 33 E= -5.0712591978e+02 error= 2.2524846425e-06 MaxBondDim= 6 
+Sweep 34 E= -5.0712700117e+02 error= 2.1323974080e-06 MaxBondDim= 6 
+Sweep 35 E= -5.0712848311e+02 error= 2.9222018811e-06 MaxBondDim= 6 
+Sweep 36 E= -5.0712951650e+02 error= 2.0377318342e-06 MaxBondDim= 6 
+Sweep 37 E= -5.0713066898e+02 error= 2.2725564901e-06 MaxBondDim= 6 
+Sweep 38 E= -5.0713230539e+02 error= 3.2267932790e-06 MaxBondDim= 6 
+Sweep 39 E= -5.0713372415e+02 error= 2.7976045837e-06 MaxBondDim= 6 
+Sweep 40 E= -5.0713502469e+02 error= 2.5644848124e-06 MaxBondDim= 6 
+Sweep 41 E= -5.0713710947e+02 error= 4.1108774498e-06 MaxBondDim= 6 
+Sweep 42 E= -5.0713915686e+02 error= 4.0371297137e-06 MaxBondDim= 6 
+Sweep 43 E= -5.0714063301e+02 error= 2.9107290486e-06 MaxBondDim= 6 
+Sweep 44 E= -5.0714216404e+02 error= 3.0189458214e-06 MaxBondDim= 6 
+Sweep 45 E= -5.0714405724e+02 error= 3.7330626882e-06 MaxBondDim= 6 
+Sweep 46 E= -5.0714659761e+02 error= 5.0091289443e-06 MaxBondDim= 6 
+Sweep 47 E= -5.0715010792e+02 error= 6.9216520025e-06 MaxBondDim= 6 
+Sweep 48 E= -5.0715507865e+02 error= 9.8012016495e-06 MaxBondDim= 6 
+Sweep 49 E= -5.0716216482e+02 error= 1.3972200082e-05 MaxBondDim= 6 
+Sweep 50 E= -5.0717241691e+02 error= 2.0214202018e-05 MaxBondDim= 6 
+Sweep 51 E= -5.0718582936e+02 error= 2.6444846983e-05 MaxBondDim= 6 
+Sweep 52 E= -5.0720228266e+02 error= 3.2439331784e-05 MaxBondDim= 6 
+Sweep 53 E= -5.0722072187e+02 error= 3.6353419492e-05 MaxBondDim= 6 
+Sweep 54 E= -5.0724158343e+02 error= 4.1127453083e-05 MaxBondDim= 6 
+Sweep 55 E= -5.0726262058e+02 error= 4.1471925527e-05 MaxBondDim= 6 
+Sweep 56 E= -5.0728190215e+02 error= 3.8009568307e-05 MaxBondDim= 6 
+Sweep 57 E= -5.0729955391e+02 error= 3.4795534087e-05 MaxBondDim= 6 
+Sweep 58 E= -5.0731423563e+02 error= 2.8940091836e-05 MaxBondDim= 6 
+Sweep 59 E= -5.0732659454e+02 error= 2.4360854717e-05 MaxBondDim= 6 
+Sweep 60 E= -5.0733691537e+02 error= 2.0343151333e-05 MaxBondDim= 6 
+Sweep 61 E= -5.0734543510e+02 error= 1.6792765802e-05 MaxBondDim= 6 
+Sweep 62 E= -5.0735237262e+02 error= 1.3673967600e-05 MaxBondDim= 6 
+Sweep 63 E= -5.0735803774e+02 error= 1.1165906103e-05 MaxBondDim= 6 
+Sweep 64 E= -5.0736259890e+02 error= 8.9899594724e-06 MaxBondDim= 6 
+Sweep 65 E= -5.0736629511e+02 error= 7.2850743800e-06 MaxBondDim= 6 
+Sweep 66 E= -5.0736933137e+02 error= 5.9843239416e-06 MaxBondDim= 6 
+Sweep 67 E= -5.0737184250e+02 error= 4.9492926991e-06 MaxBondDim= 6 
+Sweep 68 E= -5.0737393497e+02 error= 4.1241168669e-06 MaxBondDim= 6 
+Sweep 69 E= -5.0737569009e+02 error= 3.4592098600e-06 MaxBondDim= 6 
+Sweep 70 E= -5.0737716113e+02 error= 2.8992997359e-06 MaxBondDim= 6 
+Sweep 71 E= -5.0737840624e+02 error= 2.4540182960e-06 MaxBondDim= 6 
+Sweep 72 E= -5.0737945996e+02 error= 2.0767770026e-06 MaxBondDim= 6 
+Sweep 73 E= -5.0738033007e+02 error= 1.7149206545e-06 MaxBondDim= 6 
+Sweep 74 E= -5.0738106801e+02 error= 1.4543986231e-06 MaxBondDim= 6 
+Sweep 75 E= -5.0738170427e+02 error= 1.2540181770e-06 MaxBondDim= 6 
+Sweep 76 E= -5.0738225729e+02 error= 1.0899474832e-06 MaxBondDim= 6 
+Sweep 77 E= -5.0738273978e+02 error= 9.5093922310e-07 MaxBondDim= 6 
+Convergence reached after sweep 77
+
+Max. bond dimension: 6
+
+Final energy = -507.38273978 
+
+##################################
+########g= 0.4 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.1775491975e+02 error= 2.9314157372e+00 MaxBondDim= 6 
+Sweep 2 E= -5.1779648683e+02 error= 8.0276854157e-05 MaxBondDim= 6 
+Sweep 3 E= -5.1780977583e+02 error= 2.5663870640e-05 MaxBondDim= 6 
+Sweep 4 E= -5.1781611277e+02 error= 1.2237822340e-05 MaxBondDim= 6 
+Sweep 5 E= -5.1781981733e+02 error= 7.1541512929e-06 MaxBondDim= 6 
+Sweep 6 E= -5.1782222887e+02 error= 4.6570803135e-06 MaxBondDim= 6 
+Sweep 7 E= -5.1782373058e+02 error= 2.9000465384e-06 MaxBondDim= 6 
+Sweep 8 E= -5.1782476801e+02 error= 2.0034250546e-06 MaxBondDim= 6 
+Sweep 9 E= -5.1782551860e+02 error= 1.4495155186e-06 MaxBondDim= 5 
+Sweep 10 E= -5.1782610042e+02 error= 1.1235821059e-06 MaxBondDim= 5 
+Sweep 11 E= -5.1782653762e+02 error= 8.4428712979e-07 MaxBondDim= 5 
+Convergence reached after sweep 11
+
+Max. bond dimension: 5
+
+Final energy = -517.82653762 
+
+##################################
+########g= 0.5 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.2996018841e+02 error= 2.8869341922e+00 MaxBondDim= 5 
+Sweep 2 E= -5.2997250830e+02 error= 2.3246273779e-05 MaxBondDim= 5 
+Sweep 3 E= -5.2997647055e+02 error= 7.4762736444e-06 MaxBondDim= 5 
+Sweep 4 E= -5.2997833734e+02 error= 3.5223986581e-06 MaxBondDim= 5 
+Sweep 5 E= -5.2997946062e+02 error= 2.1194704772e-06 MaxBondDim= 5 
+Sweep 6 E= -5.2998013173e+02 error= 1.2662956829e-06 MaxBondDim= 5 
+Sweep 7 E= -5.2998057237e+02 error= 8.3143313967e-07 MaxBondDim= 5 
+Convergence reached after sweep 7
+
+Max. bond dimension: 5
+
+Final energy = -529.98057237 
+
+##################################
+########g= 0.6000000000000001 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.4321658966e+02 error= 2.8408863408e+00 MaxBondDim= 5 
+Sweep 2 E= -5.4322351884e+02 error= 1.2755670425e-05 MaxBondDim= 5 
+Sweep 3 E= -5.4322620855e+02 error= 4.9513649582e-06 MaxBondDim= 5 
+Sweep 4 E= -5.4322757389e+02 error= 2.5133768578e-06 MaxBondDim= 5 
+Sweep 5 E= -5.4322823302e+02 error= 1.2133558080e-06 MaxBondDim= 5 
+Sweep 6 E= -5.4322856861e+02 error= 6.1777567148e-07 MaxBondDim= 5 
+Convergence reached after sweep 6
+
+Max. bond dimension: 5
+
+Final energy = -543.22856861 
+
+##################################
+########g= 0.7000000000000001 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.5729506381e+02 error= 2.7943815852e+00 MaxBondDim= 5 
+Sweep 2 E= -5.5730227465e+02 error= 1.2938836386e-05 MaxBondDim= 5 
+Sweep 3 E= -5.5730419971e+02 error= 3.4542306532e-06 MaxBondDim= 5 
+Sweep 4 E= -5.5730500960e+02 error= 1.4532257095e-06 MaxBondDim= 5 
+Sweep 5 E= -5.5730540333e+02 error= 7.0649184010e-07 MaxBondDim= 5 
+Convergence reached after sweep 5
+
+Max. bond dimension: 5
+
+Final energy = -557.30540333 
+
+##################################
+########g= 0.8 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.7204192119e+02 error= 2.7481236304e+00 MaxBondDim= 5 
+Sweep 2 E= -5.7204676877e+02 error= 8.4741019126e-06 MaxBondDim= 5 
+Sweep 3 E= -5.7204812436e+02 error= 2.3697021328e-06 MaxBondDim= 5 
+Sweep 4 E= -5.7204867977e+02 error= 9.7092775202e-07 MaxBondDim= 5 
+Convergence reached after sweep 4
+
+Max. bond dimension: 5
+
+Final energy = -572.04867977 
+
+##################################
+########g= 0.9 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -5.8734047514e+02 error= 2.7025899667e+00 MaxBondDim= 5 
+Sweep 2 E= -5.8734470943e+02 error= 7.2092188774e-06 MaxBondDim= 5 
+Sweep 3 E= -5.8734580033e+02 error= 1.8573245059e-06 MaxBondDim= 5 
+Sweep 4 E= -5.8734624439e+02 error= 7.5604812184e-07 MaxBondDim= 5 
+Convergence reached after sweep 4
+
+Max. bond dimension: 5
+
+Final energy = -587.34624439 
+
+##################################
+########g= 1.0 ########
+##################################
+
+####DMRG calculation####
+Construct MPO
+Start DMRG run
+Sweep 1 E= -6.0310569786e+02 error= 2.6580841526e+00 MaxBondDim= 5 
+Sweep 2 E= -6.0310857011e+02 error= 4.7623993199e-06 MaxBondDim= 5 
+Sweep 3 E= -6.0310945913e+02 error= 1.4740678123e-06 MaxBondDim= 5 
+Sweep 4 E= -6.0310972741e+02 error= 4.4481849007e-07 MaxBondDim= 4 
+Convergence reached after sweep 4
+
+Max. bond dimension: 4
+
+Final energy = -603.10972741 
+
+
+Calculation finished.
